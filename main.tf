@@ -17,7 +17,7 @@ resource "aws_vpc" "tfdemo" {
 
   tags = {
     name        = "${var.prefix}-vpc-${var.region}"
-    environment = "Production"
+    environment = "Prod"
   }
 }
 
